@@ -165,7 +165,9 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
             requestPermissions();
         else
             etMessage.setError(getString(R.string.please_write_message));
-
+        etMessage.clearFocus();
+        etMessage.clearComposingText();
+        etMessage.setText("");
     }
 
     private void requestPermissions() {
