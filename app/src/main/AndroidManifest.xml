@@ -17,21 +17,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-
-        <activity android:name="com.webianks.scintaxxmessenger.activities.MainActivity">
-
+        <activity android:name=".activities.Intro4"></activity>
+        <activity android:name=".activities.Intro3" />
+        <activity android:name=".activities.Intro2" />
+        <activity android:name=".activities.Intro1" />
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
-
         </activity>
-
-        <activity android:name="com.webianks.scintaxxmessenger.activities.NewSMSActivity">
+        <activity android:name=".activities.NewSMSActivity">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <action android:name="android.intent.action.SENDTO" />
@@ -47,7 +48,7 @@
         </activity>
 
         <receiver
-            android:name="com.webianks.scintaxxmessenger.receivers.SmsReceiver"
+            android:name=".receivers.SmsReceiver"
             android:enabled="true"
             android:exported="true"
             android:permission="android.permission.BROADCAST_SMS">
@@ -55,22 +56,18 @@
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
                 <action android:name="android.provider.Telephony.SMS_DELIVER" />
             </intent-filter>
-        </receiver>
-
-        <!-- BroadcastReceiver that listens for incoming MMS messages -->
+        </receiver> <!-- BroadcastReceiver that listens for incoming MMS messages -->
         <receiver
-            android:name="com.webianks.scintaxxmessenger.receivers.MmsReceiver"
+            android:name=".receivers.MmsReceiver"
             android:permission="android.permission.BROADCAST_WAP_PUSH">
             <intent-filter>
                 <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
 
                 <data android:mimeType="application/vnd.wap.mms-message" />
             </intent-filter>
-        </receiver>
-
-        <!-- Service that delivers messages from the phone "quick response" -->
+        </receiver> <!-- Service that delivers messages from the phone "quick response" -->
         <service
-            android:name="com.webianks.scintaxxmessenger.services.HeadlessSmsSendService"
+            android:name=".services.HeadlessSmsSendService"
             android:exported="true"
             android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
             <intent-filter>
@@ -85,17 +82,15 @@
             </intent-filter>
         </service>
         <service
-            android:name="com.webianks.scintaxxmessenger.services.SaveSmsService"
+            android:name=".services.SaveSmsService"
             android:exported="false" />
 
-        <activity android:name="com.webianks.scintaxxmessenger.activities.SmsDetailedView" />
-
+        <activity android:name=".activities.SmsDetailedView" />
         <activity
-            android:name="com.webianks.scintaxxmessenger.activities.SettingsActivity"
+            android:name=".activities.SettingsActivity"
             android:label="@string/title_activity_settings" />
 
-        <service android:name="com.webianks.scintaxxmessenger.services.UpdateSMSService"/>
-
+        <service android:name=".services.UpdateSMSService" />
     </application>
 
 </manifest>

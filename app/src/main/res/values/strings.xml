@@ -21,5 +21,6 @@
     <string name="restore_backup">Restore Backup</string>
     <string name="restore_backup_all">Restore all your drive stored sms.</string>
     <string name="google_drive_restore">Restore Backup</string>
+    <string name="welcome_to_scintaxx_your_all_in_one_messaging_service">Welcome to Scintaxx, your All-in-One messaging service</string>
 
 </resources>
