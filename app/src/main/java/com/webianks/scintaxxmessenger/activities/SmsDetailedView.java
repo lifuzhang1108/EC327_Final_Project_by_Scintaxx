@@ -3,6 +3,7 @@ package com.webianks.scintaxxmessenger.activities;
 import android.Manifest;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
@@ -31,6 +32,7 @@ import com.webianks.scintaxxmessenger.constants.Constants;
 import com.webianks.scintaxxmessenger.constants.SmsContract;
 import com.webianks.scintaxxmessenger.receivers.DeliverReceiver;
 import com.webianks.scintaxxmessenger.receivers.SentReceiver;
+import com.webianks.scintaxxmessenger.services.SaveSmsService;
 import com.webianks.scintaxxmessenger.services.UpdateSMSService;
 
 
@@ -61,8 +63,6 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
     private void init() {
 
         Intent intent = getIntent();
-
-
         contact = intent.getStringExtra(Constants.CONTACT_NAME);
         _Id = intent.getLongExtra(Constants.SMS_ID,-123);
         color = intent.getIntExtra(Constants.COLOR,0);
@@ -154,6 +154,7 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
 
         if (view.getId() == R.id.btSend) {
             sendSMSMessage();
+
         }
     }
 
@@ -218,10 +219,18 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
         try {
             SmsManager sms = SmsManager.getDefault();
             sms.sendTextMessage(contact, null, message, sentPI, deliveredPI);
+            Intent serviceIntent = new Intent(getApplicationContext(), SaveSmsService.class);
+            serviceIntent.putExtra("sender_no", contact);
+            serviceIntent.putExtra("message", message);
+            serviceIntent.putExtra("date", System.currentTimeMillis());
+            serviceIntent.putExtra("type", 2);
+            getApplicationContext().startService(serviceIntent);
         }catch (Exception e){
             Toast.makeText(this,getString(R.string.cant_send),Toast.LENGTH_SHORT).show();
 
         }
+
+
     }
 
     @Override

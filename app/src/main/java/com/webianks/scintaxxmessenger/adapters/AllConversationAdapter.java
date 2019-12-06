@@ -60,6 +60,7 @@ public class AllConversationAdapter extends RecyclerView.Adapter<AllConversation
 
         int color = generator.getColor(SMS.getAddress());
         String firstChar = String.valueOf(SMS.getAddress().charAt(0));
+
         TextDrawable drawable = TextDrawable.builder().buildRound(firstChar, color);
         holder.senderImage.setImageDrawable(drawable);
 

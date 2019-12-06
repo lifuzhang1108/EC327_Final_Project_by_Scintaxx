@@ -59,9 +59,27 @@ public class SingleGroupAdapter extends RecyclerView.Adapter<SingleGroupAdapter.
             if (generator!=null)
                 color = generator.getColor(name);
         }
+        long folderName = dataCursor.getLong(dataCursor.getColumnIndexOrThrow("type"));
+        String address = dataCursor.getString(dataCursor.getColumnIndexOrThrow("address"));
+        if(folderName==1) {
+            color=-77777;
+            TextDrawable drawable = TextDrawable.builder().buildRound(firstChar, color);
+            holder.image.setImageDrawable(drawable);
 
-        TextDrawable drawable = TextDrawable.builder().buildRound(firstChar, color);
-        holder.image.setImageDrawable(drawable);
+        }
+        else if((folderName==2)) {
+            color=0;
+            //holder.message.setX(-150);
+            //holder.image.setX(1180);
+            TextDrawable drawable = TextDrawable.builder().buildRound("", color);
+            holder.image.setImageDrawable(drawable);
+
+
+        }
+
+
+
+
 
 
     }
