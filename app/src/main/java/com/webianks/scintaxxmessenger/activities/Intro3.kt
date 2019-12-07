@@ -14,13 +14,13 @@ class Intro3 : AppCompatActivity() {
 
         button4.setOnClickListener {
             val intent = Intent(this, Intro2::class.java)
-            // start your next activity
+            // start next activity
             startActivity(intent)
         }
 
         button3.setOnClickListener {
             val intent = Intent(this, Intro4::class.java)
-            // start your next activity
+            // start next activity
             startActivity(intent)
         }
     }
