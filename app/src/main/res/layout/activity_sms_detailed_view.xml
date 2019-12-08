@@ -15,7 +15,7 @@
         android:layout_height="match_parent"
         android:layout_marginBottom="@dimen/type_box_height"
         android:scrollbars="vertical"
-        android:background="@color/white" />
+/>
 
     <RelativeLayout
         android:layout_gravity="bottom"
@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:background="@color/white"
+
             android:weightSum="2">
 
             <EditText

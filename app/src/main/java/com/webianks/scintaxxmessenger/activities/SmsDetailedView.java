@@ -44,7 +44,7 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
     private EditText etMessage;
     private ImageView btSend;
     private String message;
-    private boolean from_reciever;
+    private boolean from_receiver;
     private long _Id;
     private int color;
     private String read = "1";
@@ -68,7 +68,7 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
         color = intent.getIntExtra(Constants.COLOR,0);
         read = intent.getStringExtra(Constants.READ);
 
-        from_reciever = intent.getBooleanExtra(Constants.FROM_SMS_RECIEVER, false);
+        from_receiver = intent.getBooleanExtra(Constants.FROM_SMS_RECIEVER, false);
 
         if (getSupportActionBar() != null)
             getSupportActionBar().setTitle(contact);
@@ -93,7 +93,7 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
     public boolean onOptionsItemSelected(MenuItem item) {
 
         if (item.getItemId() == android.R.id.home) {
-            if (from_reciever)
+            if (from_receiver)
                 startActivity(new Intent(this, MainActivity.class));
 
             finish();
@@ -111,7 +111,7 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
     @Override
     protected void onResume() {
         super.onResume();
-        getSupportLoaderManager().initLoader(Constants.CONVERSATION_LOADER, null, this);
+        LoaderManager.getInstance(this).initLoader(Constants.CONVERSATION_LOADER, null, this);
     }
 
     @Override
@@ -205,7 +205,7 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
     private void sendSMSNow() {
 
         BroadcastReceiver sendBroadcastReceiver = new SentReceiver();
-        BroadcastReceiver deliveryBroadcastReciever = new DeliverReceiver();
+        BroadcastReceiver deliveryBroadcastReceiver = new DeliverReceiver();
 
         String SENT = "SMS_SENT";
         String DELIVERED = "SMS_DELIVERED";
@@ -214,7 +214,7 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
         PendingIntent deliveredPI = PendingIntent.getBroadcast(this, 0, new Intent(DELIVERED), 0);
 
         registerReceiver(sendBroadcastReceiver, new IntentFilter(SENT));
-        registerReceiver(deliveryBroadcastReciever, new IntentFilter(DELIVERED));
+        registerReceiver(deliveryBroadcastReceiver, new IntentFilter(DELIVERED));
 
         try {
             SmsManager sms = SmsManager.getDefault();
@@ -236,7 +236,7 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
     @Override
     public void onBackPressed() {
 
-        if (from_reciever) {
+        if (from_receiver) {
             startActivity(new Intent(this, MainActivity.class));
         } else
             super.onBackPressed();
