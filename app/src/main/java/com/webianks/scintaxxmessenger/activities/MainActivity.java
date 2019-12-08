@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int permissionCheck = ContextCompat.checkSelfPermission(this,
                 Manifest.permission.READ_CONTACTS);
         if (permissionCheck == 0)
-            LoaderManager.getInstance(this).initLoader(Constants.ALL_SMS_LOADER, null, this);
+            getSupportLoaderManager().initLoader(Constants.ALL_SMS_LOADER, null, this);
 
 
     }
@@ -226,7 +226,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     } else
 
 
-                        LoaderManager.getInstance(this).initLoader(Constants.ALL_SMS_LOADER, null, this);
+                        getSupportLoaderManager().initLoader(Constants.ALL_SMS_LOADER, null, this);
 
 
                 } else {
@@ -239,7 +239,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (grantResults.length > 0
                         && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
-                    LoaderManager.getInstance(this).initLoader(Constants.ALL_SMS_LOADER, null, this);
+                    getSupportLoaderManager().initLoader(Constants.ALL_SMS_LOADER, null, this);
 
                 } else {
                     Toast.makeText(getApplicationContext(),
@@ -325,7 +325,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onPause();
 
         this.unregisterReceiver(this.mReceiver);
-        getLoaderManager().destroyLoader(Constants.ALL_SMS_LOADER);
+        getSupportLoaderManager().destroyLoader(Constants.ALL_SMS_LOADER);
     }
 
 
