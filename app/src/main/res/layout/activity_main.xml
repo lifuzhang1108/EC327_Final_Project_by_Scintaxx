@@ -16,17 +16,47 @@
         android:src="@drawable/ic_add_white_18dp"
         app:fabSize="normal" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/fb"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_margin="@dimen/activity_horizontal_margin"-->
+<!--        android:clickable="true"-->
+<!--        android:src="@drawable/ic_add_white_18dp"-->
+<!--        app:fabSize="normal" />-->
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/email"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_toRightOf="@+id/fb"-->
+<!--        android:layout_margin="@dimen/activity_horizontal_margin"-->
+<!--        android:clickable="true"-->
+<!--        android:src="@drawable/ic_add_white_18dp"-->
+<!--        app:fabSize="normal" />normal-->
+    <Button
         android:id="@+id/fb"
-        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_margin="@dimen/activity_horizontal_margin"
-        android:clickable="true"
-        android:src="@drawable/ic_add_white_18dp"
-        app:fabSize="normal" />
-
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Facebook" />
+    <Button
+        android:id="@+id/email"
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/fb"
+        android:layout_alignParentBottom="true"
+        android:text="Email" />
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"

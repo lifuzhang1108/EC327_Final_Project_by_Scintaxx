@@ -15,6 +15,7 @@ import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -51,7 +52,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private RecyclerView recyclerView;
     private FloatingActionButton fab;
-    private FloatingActionButton fb;
+    private Button fb;
+    private Button email;
     private AllConversationAdapter allConversationAdapter;
     private String TAG = MainActivity.class.getSimpleName();
     private String mCurFilter;
@@ -74,11 +76,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         recyclerView = findViewById(R.id.recyclerview);
         fab = findViewById(R.id.fab_new);
         fb = findViewById(R.id.fb);
+        email = findViewById(R.id.email);
         progressBar = findViewById(R.id.progressBar);
         linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
         fab.setOnClickListener(this);
         fb.setOnClickListener(this);
+        email.setOnClickListener(this);
         if (checkDefaultSettings())
             checkPermissions();
 
@@ -159,6 +163,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.fb:
 
                 startActivity(new Intent(this, LoginActivity.class));
+                break;
+            case R.id.email:
+
+                startActivity(new Intent(this, EmailActivity.class));
                 break;
         }
     }
