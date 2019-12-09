@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private RecyclerView recyclerView;
     private FloatingActionButton fab;
+    private FloatingActionButton fb;
     private AllConversationAdapter allConversationAdapter;
     private String TAG = MainActivity.class.getSimpleName();
     private String mCurFilter;
@@ -72,11 +73,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         recyclerView = findViewById(R.id.recyclerview);
         fab = findViewById(R.id.fab_new);
+        fb = findViewById(R.id.fb);
         progressBar = findViewById(R.id.progressBar);
         linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
         fab.setOnClickListener(this);
-
+        fb.setOnClickListener(this);
         if (checkDefaultSettings())
             checkPermissions();
 
@@ -153,6 +155,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.fab_new:
 
                 startActivity(new Intent(this, NewSMSActivity.class));
+                break;
+            case R.id.fb:
+
+                startActivity(new Intent(this, LoginActivity.class));
                 break;
         }
     }
