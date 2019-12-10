@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.telephony.SmsManager;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -44,6 +45,7 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
     private EditText etMessage;
     private ImageView btSend;
     private String message;
+    private Button button8;
     private boolean from_receiver;
     private long _Id;
     private int color;
@@ -56,7 +58,21 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
         setContentView(R.layout.activity_sms_detailed_view);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        button8 = findViewById(R.id.button8);
+        button8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAlternateMessageView();
+            }
+        });
+
+
         init();
+    }
+
+    public void openAlternateMessageView() {
+        Intent intent = new Intent(this, AlternateMessageView.class);
+        startActivity(intent);
     }
 
 

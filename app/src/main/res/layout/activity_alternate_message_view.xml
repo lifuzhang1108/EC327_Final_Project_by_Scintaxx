@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.webianks.scintaxxmessenger.activities.AlternateMessageView">
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="303dp"
+        android:layout_height="46dp"
+        android:text="Facebook Messenger"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="303dp"
+        android:layout_height="46dp"
+        android:text="Whatsapp"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMessage2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="303dp"
+        android:layout_height="46dp"
+        android:text="LINE"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMessage4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="303dp"
+        android:layout_height="46dp"
+        android:text="Instagram Direct"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/time2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etMessage"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="81dp"
+        android:layout_height="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/time_margin"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/time2"
+        android:layout_width="81dp"
+        android:layout_height="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/time_margin"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/time3"
+        android:layout_width="81dp"
+        android:layout_height="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/time_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/btSend2" />
+
+    <TextView
+        android:id="@+id/time4"
+        android:layout_width="81dp"
+        android:layout_height="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/time_margin"
+        app:layout_constraintBottom_toTopOf="@+id/message4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/etMessage4"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <ImageView
+        android:id="@+id/smsImage"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/time"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_account_circle_black_36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <ImageView
+        android:id="@+id/smsImage2"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/time"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/ic_account_circle_black_36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/message2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <ImageView
+        android:id="@+id/smsImage5"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/time"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/ic_account_circle_black_36dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/smsImage4"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/time"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/ic_account_circle_black_36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="347dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/time"
+        android:layout_toRightOf="@id/smsImage"
+        android:background="@drawable/rounded_background"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/content_small"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/detailed_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/smsImage"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/message2"
+        android:layout_width="347dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/time"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_toRightOf="@id/smsImage"
+        android:background="@drawable/rounded_background"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/content_small"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/detailed_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/smsImage"
+        app:layout_constraintStart_toStartOf="@+id/smsImage2"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/message3"
+        android:layout_width="347dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/time"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_toRightOf="@id/smsImage"
+        android:background="@drawable/rounded_background"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/content_small"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/detailed_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/smsImage"
+        app:layout_constraintStart_toStartOf="@+id/smsImage2"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/message4"
+        android:layout_width="347dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/time"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_toRightOf="@id/smsImage"
+        android:background="@drawable/rounded_background"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/content_small"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/detailed_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/smsImage"
+        app:layout_constraintStart_toStartOf="@+id/smsImage2"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/message5"
+        android:layout_width="347dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/time"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_toRightOf="@id/smsImage"
+        android:background="@drawable/rounded_background"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/content_small"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/detailed_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/smsImage"
+        app:layout_constraintStart_toStartOf="@+id/smsImage2"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <EditText
+        android:id="@+id/etMessage"
+        style="@style/App_EditTextStyle"
+        android:layout_width="350dp"
+        android:layout_height="42dp"
+        android:layout_weight="1.6"
+        android:hint="@string/write_message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message" />
+
+    <EditText
+        android:id="@+id/etMessage2"
+        style="@style/App_EditTextStyle"
+        android:layout_width="350dp"
+        android:layout_height="42dp"
+        android:layout_weight="1.6"
+        android:hint="@string/write_message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message2" />
+
+    <EditText
+        android:id="@+id/etMessage4"
+        style="@style/App_EditTextStyle"
+        android:layout_width="350dp"
+        android:layout_height="42dp"
+        android:layout_weight="1.6"
+        android:hint="@string/write_message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message3" />
+
+    <EditText
+        android:id="@+id/etMessage3"
+        style="@style/App_EditTextStyle"
+        android:layout_width="350dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_weight="1.6"
+        android:hint="@string/write_message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message4" />
+
+    <ImageView
+        android:id="@+id/btSend"
+        android:layout_width="58dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.4"
+        android:background="@drawable/main_background"
+        android:clickable="true"
+        android:padding="10dp"
+        android:src="@drawable/ic_action_sent_mail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/etMessage"
+        app:layout_constraintTop_toTopOf="@+id/etMessage" />
+
+    <ImageView
+        android:id="@+id/btSend2"
+        android:layout_width="58dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.4"
+        android:background="@drawable/main_background"
+        android:clickable="true"
+        android:padding="10dp"
+        android:src="@drawable/ic_action_sent_mail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/etMessage2"
+        app:layout_constraintTop_toTopOf="@+id/etMessage2" />
+
+    <ImageView
+        android:id="@+id/btSend4"
+        android:layout_width="58dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.4"
+        android:background="@drawable/main_background"
+        android:clickable="true"
+        android:padding="10dp"
+        android:src="@drawable/ic_action_sent_mail"
+        app:layout_constraintBottom_toBottomOf="@+id/etMessage4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/etMessage2"
+        app:layout_constraintTop_toTopOf="@+id/etMessage4" />
+
+    <ImageView
+        android:id="@+id/btSend3"
+        android:layout_width="58dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.4"
+        android:background="@drawable/main_background"
+        android:clickable="true"
+        android:padding="10dp"
+        android:src="@drawable/ic_action_sent_mail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toEndOf="@+id/etMessage2"
+        app:layout_constraintTop_toBottomOf="@+id/message4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_sms_detailed_view"
     android:layout_width="match_parent"
@@ -12,10 +13,9 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="675dp"
         android:layout_marginBottom="@dimen/type_box_height"
-        android:scrollbars="vertical"
-/>
+        android:scrollbars="vertical" />
 
     <RelativeLayout
         android:layout_gravity="bottom"
@@ -38,24 +38,30 @@
 
             <EditText
                 android:id="@+id/etMessage"
+                style="@style/App_EditTextStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.6"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                android:hint="@string/write_message"
-                style="@style/App_EditTextStyle"
-                />
+                android:layout_weight="1.6"
+                android:hint="@string/write_message" />
 
             <ImageView
                 android:id="@+id/btSend"
-                android:clickable="true"
-                android:layout_weight="0.4"
                 android:layout_width="0dp"
-                android:background="@drawable/main_background"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_action_sent_mail"
+                android:layout_weight="0.4"
+                android:background="@drawable/main_background"
+                android:clickable="true"
                 android:padding="10dp"
-                android:layout_height="match_parent" />
+                android:src="@drawable/ic_action_sent_mail" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="111dp"
+                android:layout_height="55dp"
+                android:text="Quik Reply"
+                app:elevation="0dp" />
 
         </LinearLayout>
 
