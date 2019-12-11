@@ -17,7 +17,7 @@ Download the latest version of JDK and install it on your computer.
 Click on the "Open an existing Android Studio project"
 Select the folder of your project then click open.
 ##### 6 Run the app on a virtral phone.
-After the project is built, hit on the run button.
+After the project is built, hit the run button.
 ### How to use the app
 The first time when you open the project there is going to be an introduction page. It will introduce the app.
 Login to your email account and also authorize the login access to your Facebook and you are all set.
