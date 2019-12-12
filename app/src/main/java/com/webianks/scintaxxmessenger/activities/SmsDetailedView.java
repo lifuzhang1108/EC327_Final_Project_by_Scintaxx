@@ -58,21 +58,10 @@ public class SmsDetailedView extends AppCompatActivity implements LoaderManager.
         setContentView(R.layout.activity_sms_detailed_view);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        button8 = findViewById(R.id.button8);
-        button8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openAlternateMessageView();
-            }
-        });
+
 
 
         init();
-    }
-
-    public void openAlternateMessageView() {
-        Intent intent = new Intent(this, AlternateMessageView.class);
-        startActivity(intent);
     }
 
 

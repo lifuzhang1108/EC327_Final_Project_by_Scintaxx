@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private FloatingActionButton fab;
     private Button fb;
     private Button email;
+    private Button quikreply;
     private AllConversationAdapter allConversationAdapter;
     private String TAG = MainActivity.class.getSimpleName();
     private String mCurFilter;
@@ -67,8 +68,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        quikreply = findViewById(R.id.quikreply);
+        quikreply.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAlternateMessageView();
+            }
+        });
+
         init();
 
+
+
+    }
+
+    public void openAlternateMessageView() {
+        Intent intent = new Intent(this, AlternateMessageView.class);
+        startActivity(intent);
     }
 
     private void init() {

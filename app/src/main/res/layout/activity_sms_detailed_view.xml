@@ -56,12 +56,7 @@
                 android:padding="10dp"
                 android:src="@drawable/ic_action_sent_mail" />
 
-            <Button
-                android:id="@+id/button8"
-                android:layout_width="111dp"
-                android:layout_height="55dp"
-                android:text="Quik Reply"
-                app:elevation="0dp" />
+
 
         </LinearLayout>
 

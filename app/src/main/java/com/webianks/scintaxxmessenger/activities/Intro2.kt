@@ -19,3 +19,4 @@ class Intro2 : AppCompatActivity() {
         }
     }
 }
+
