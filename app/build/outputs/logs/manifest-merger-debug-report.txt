@@ -1,0 +1,492 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:2:1-132:12
+MERGED from [com.google.android.material:material:1.1.0-alpha08] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8ac03ad658677d462549fb6a19509c14\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\300b6f2e856c47a3568ff8a0cb19607a\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\0d89f6cc628d3365263a02319a4af56c\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\f78ce5aa98f2608feea055f92e4f0753\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ff9569a0de39280e80ca81146d937981\AndroidManifest.xml:21:1-36:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ffb1536b95892d52477233b93cacf732\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\3e2b0f0abd04f33f4919984a463bd5cd\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\bcedfeb1ab4b355803fd4ea21fc9ccbe\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\4aba6b5e54f86673a1226b772dc4d29c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8be8201b24ec66870020ab9f53a6bcf3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\2456378812db3bd2d9a2591846358147\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a8a6d3780afc5f34f849892b8b7caaa7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\034d94b50ad5e6e976b0829a100a2a28\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-places:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a75c03746922e00f9e3edaa9945b7be7\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\11f8ae9ca70bbb9e71eaaa18171d5044\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a44c9e6f48b4b202b6d89f34daf049d2\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:21:1-53:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8ce5c7fd7e8a5ce97ccf30bf77377665\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\1794a013f82c166211016a8987d23998\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\51cb329587ac572d79f4d97d10236bc9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\92041065994ea23289fda69528d15811\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\856cb645e8d848886988e840fc207ddf\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b923d168f0844765f0f620c61052485c\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha06] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ef9dbf373e0e86e2332bba77ea2a742c\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\060b7ffd35154b308529bb4850a1ee90\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\1a56d2e0ce113ac8d21a0c38f5ac2a48\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\54c02a1fbe5b32aab5dccf19f566eeae\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b6ac3622e796d32b91e00cf86558a8fb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8fae4b68075e7f8b6bc92471efb088c1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\3ac890fdca85626bf0d673155ffd4ea6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\2673fe9dd46d525081cf65fe1695a8d3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\0ecf6c2a915c13b66d70e040733679ff\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\950f30f00c4a0380b26dc22394b16dc7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\950e19622c18f08264c04498e7585db5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\1fdffd3df01093e54f22fae1bf2bd791\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\3db01673e01569fbe852660a5649b91e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\6356e7902601925e28cec14d01bf2586\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\1de9b528806e9afc396cd341fd52e87a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ffbb887b9f7a3913690a66d86067473d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\268f5525b1351710c953de75bff47c6e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\617dbe5e3264e5e3a6e4a9d597207d08\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\6199db32628075c28f364851617c94dd\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\114f5dd4cffbcefe7ebf3c733d12357b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0-alpha01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\5a2cd5b28cd37dce1a344e0690777f43\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\efafe6b6227c0755b2eb7eb9477678c2\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\7fb1bb5c3a3ab9a6d76df03a288a8ca2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\143c1dbaae59b760eb5545f735637f25\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\9fe4c693ec2132e9b5a41a78f751d675\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a2ff2ced9ca1dc17d26ca8d9b7e5d15f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b29ec1f27d4e1af9d0bd5159be59e6b5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\460f369e35cf796c731f9c64e1127669\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:2:1-132:12
+INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:2:1-132:12
+	package
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:4:5-45
+		INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:2:1-132:12
+		INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:2:1-132:12
+		INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:7:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:11:22-69
+application
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:13:5-130:19
+MERGED from [com.google.android.material:material:1.1.0-alpha08] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8ac03ad658677d462549fb6a19509c14\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha08] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8ac03ad658677d462549fb6a19509c14\AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\300b6f2e856c47a3568ff8a0cb19607a\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\300b6f2e856c47a3568ff8a0cb19607a\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\0d89f6cc628d3365263a02319a4af56c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\0d89f6cc628d3365263a02319a4af56c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\f78ce5aa98f2608feea055f92e4f0753\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\f78ce5aa98f2608feea055f92e4f0753\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ff9569a0de39280e80ca81146d937981\AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-common:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ff9569a0de39280e80ca81146d937981\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8be8201b24ec66870020ab9f53a6bcf3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8be8201b24ec66870020ab9f53a6bcf3\AndroidManifest.xml:22:5-20
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\2456378812db3bd2d9a2591846358147\AndroidManifest.xml:12:5-20
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\2456378812db3bd2d9a2591846358147\AndroidManifest.xml:12:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\034d94b50ad5e6e976b0829a100a2a28\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\034d94b50ad5e6e976b0829a100a2a28\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-places:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a75c03746922e00f9e3edaa9945b7be7\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a75c03746922e00f9e3edaa9945b7be7\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\11f8ae9ca70bbb9e71eaaa18171d5044\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\11f8ae9ca70bbb9e71eaaa18171d5044\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a44c9e6f48b4b202b6d89f34daf049d2\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a44c9e6f48b4b202b6d89f34daf049d2\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:28:5-51:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\92041065994ea23289fda69528d15811\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\92041065994ea23289fda69528d15811\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\856cb645e8d848886988e840fc207ddf\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\856cb645e8d848886988e840fc207ddf\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b923d168f0844765f0f620c61052485c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b923d168f0844765f0f620c61052485c\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.2.0-alpha01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\5a2cd5b28cd37dce1a344e0690777f43\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.2.0-alpha01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\5a2cd5b28cd37dce1a344e0690777f43\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\efafe6b6227c0755b2eb7eb9477678c2\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\efafe6b6227c0755b2eb7eb9477678c2\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0-alpha01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\5a2cd5b28cd37dce1a344e0690777f43\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:16:9-41
+	tools:ignore
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:19:9-48
+	android:icon
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:18:9-40
+activity#com.webianks.scintaxxmessenger.activities.AlternateMessageView
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:20:9-78
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:20:19-66
+activity#com.webianks.scintaxxmessenger.activities.FacebookActivity
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:21:9-24:59
+	android:label
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:23:13-45
+	android:theme
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:24:13-56
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:22:13-56
+activity#com.webianks.scintaxxmessenger.activities.LoginActivity
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:25:9-71
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:25:19-59
+activity#com.webianks.scintaxxmessenger.activities.EmailActivity
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:26:9-29:59
+	android:label
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:28:13-45
+	android:theme
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:27:13-53
+activity#com.facebook.FacebookActivity
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:30:9-33:48
+MERGED from [com.facebook.android:facebook-common:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ff9569a0de39280e80ca81146d937981\AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ff9569a0de39280e80ca81146d937981\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:33:13-45
+	android:configChanges
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:32:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ff9569a0de39280e80ca81146d937981\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:31:13-57
+activity#com.webianks.scintaxxmessenger.activities.Intro4
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:34:9-36:75
+	android:theme
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:36:13-72
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:35:13-46
+activity#com.webianks.scintaxxmessenger.activities.Intro3
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:37:9-39:75
+	android:theme
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:39:13-72
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:38:13-46
+activity#com.webianks.scintaxxmessenger.activities.Intro2
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:40:9-42:75
+	android:theme
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:42:13-72
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:41:13-46
+activity#com.webianks.scintaxxmessenger.activities.Intro1
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:43:9-51:20
+	android:theme
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:45:13-72
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:44:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:46:13-50:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:49:17-77
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:49:27-74
+activity#com.webianks.scintaxxmessenger.activities.MainActivity
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:52:9-62:20
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:52:19-58
+meta-data#android.app.searchable
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:59:13-61:54
+	android:resource
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:61:17-51
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:60:17-54
+activity#com.webianks.scintaxxmessenger.activities.NewSMSActivity
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:63:9-76:20
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:63:19-60
+intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.SENDTO+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:SMS+data:scheme:mms+data:scheme:mmsto+data:scheme:smsto
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:64:13-75:29
+action#android.intent.action.SEND
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:65:17-69
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:65:25-66
+action#android.intent.action.SENDTO
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:66:17-71
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:66:25-68
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:68:17-76
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:68:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:69:17-78
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:69:27-75
+data
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:71:17-46
+	android:scheme
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:71:23-43
+	android:mimeType
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:94:23-73
+receiver#com.webianks.scintaxxmessenger.receivers.SmsReceiver
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:78:9-87:20
+	android:enabled
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:80:13-35
+	android:exported
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:81:13-36
+	android:permission
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:82:13-66
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:79:13-50
+intent-filter#action:name:android.provider.Telephony.SMS_DELIVER+action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:83:13-86:29
+	android:priority
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:83:28-50
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:84:17-82
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:84:25-79
+action#android.provider.Telephony.SMS_DELIVER
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:85:17-81
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:85:25-78
+receiver#com.webianks.scintaxxmessenger.receivers.MmsReceiver
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:88:9-96:20
+	android:permission
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:90:13-71
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:89:13-50
+intent-filter#action:name:android.provider.Telephony.WAP_PUSH_DELIVER+data:mimeType:application/vnd.wap.mms-message
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:91:13-95:29
+action#android.provider.Telephony.WAP_PUSH_DELIVER
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:92:17-86
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:92:25-83
+service#com.webianks.scintaxxmessenger.services.HeadlessSmsSendService
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:97:9-111:19
+	android:exported
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:99:13-36
+	android:permission
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:100:13-77
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:98:13-60
+intent-filter#action:name:android.intent.action.RESPOND_VIA_MESSAGE+category:name:android.intent.category.DEFAULT+data:scheme:SMS+data:scheme:mms+data:scheme:mmsto+data:scheme:smsto
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:101:13-110:29
+action#android.intent.action.RESPOND_VIA_MESSAGE
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:102:17-84
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:102:25-81
+service#com.webianks.scintaxxmessenger.services.SaveSmsService
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:112:9-114:40
+	android:exported
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:114:13-37
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:113:13-52
+activity#com.webianks.scintaxxmessenger.activities.SmsDetailedView
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:116:9-64
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:116:19-61
+activity#com.webianks.scintaxxmessenger.activities.SettingsActivity
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:117:9-119:63
+	android:label
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:119:13-60
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:118:13-56
+service#com.webianks.scintaxxmessenger.services.UpdateSMSService
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:121:9-62
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:121:18-59
+uses-library#org.apache.http.legacy
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:123:9-125:40
+	android:required
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:125:13-37
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:124:13-50
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:127:9-129:55
+	android:value
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:129:13-52
+	android:name
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml:128:13-58
+uses-sdk
+INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-alpha08] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8ac03ad658677d462549fb6a19509c14\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha08] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8ac03ad658677d462549fb6a19509c14\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\300b6f2e856c47a3568ff8a0cb19607a\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\300b6f2e856c47a3568ff8a0cb19607a\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\0d89f6cc628d3365263a02319a4af56c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\0d89f6cc628d3365263a02319a4af56c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\f78ce5aa98f2608feea055f92e4f0753\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\f78ce5aa98f2608feea055f92e4f0753\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ff9569a0de39280e80ca81146d937981\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ff9569a0de39280e80ca81146d937981\AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ffb1536b95892d52477233b93cacf732\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ffb1536b95892d52477233b93cacf732\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\3e2b0f0abd04f33f4919984a463bd5cd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\3e2b0f0abd04f33f4919984a463bd5cd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\bcedfeb1ab4b355803fd4ea21fc9ccbe\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\bcedfeb1ab4b355803fd4ea21fc9ccbe\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\4aba6b5e54f86673a1226b772dc4d29c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\4aba6b5e54f86673a1226b772dc4d29c\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8be8201b24ec66870020ab9f53a6bcf3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8be8201b24ec66870020ab9f53a6bcf3\AndroidManifest.xml:20:5-44
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\2456378812db3bd2d9a2591846358147\AndroidManifest.xml:8:5-10:41
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\2456378812db3bd2d9a2591846358147\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a8a6d3780afc5f34f849892b8b7caaa7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a8a6d3780afc5f34f849892b8b7caaa7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\034d94b50ad5e6e976b0829a100a2a28\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\034d94b50ad5e6e976b0829a100a2a28\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.android:facebook-places:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a75c03746922e00f9e3edaa9945b7be7\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a75c03746922e00f9e3edaa9945b7be7\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\11f8ae9ca70bbb9e71eaaa18171d5044\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\11f8ae9ca70bbb9e71eaaa18171d5044\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a44c9e6f48b4b202b6d89f34daf049d2\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a44c9e6f48b4b202b6d89f34daf049d2\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8ce5c7fd7e8a5ce97ccf30bf77377665\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8ce5c7fd7e8a5ce97ccf30bf77377665\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\1794a013f82c166211016a8987d23998\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\1794a013f82c166211016a8987d23998\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\51cb329587ac572d79f4d97d10236bc9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\51cb329587ac572d79f4d97d10236bc9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\92041065994ea23289fda69528d15811\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\92041065994ea23289fda69528d15811\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\856cb645e8d848886988e840fc207ddf\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\856cb645e8d848886988e840fc207ddf\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b923d168f0844765f0f620c61052485c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b923d168f0844765f0f620c61052485c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha06] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ef9dbf373e0e86e2332bba77ea2a742c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha06] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ef9dbf373e0e86e2332bba77ea2a742c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\060b7ffd35154b308529bb4850a1ee90\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\060b7ffd35154b308529bb4850a1ee90\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\1a56d2e0ce113ac8d21a0c38f5ac2a48\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\1a56d2e0ce113ac8d21a0c38f5ac2a48\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\54c02a1fbe5b32aab5dccf19f566eeae\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\54c02a1fbe5b32aab5dccf19f566eeae\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b6ac3622e796d32b91e00cf86558a8fb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b6ac3622e796d32b91e00cf86558a8fb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8fae4b68075e7f8b6bc92471efb088c1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\8fae4b68075e7f8b6bc92471efb088c1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\3ac890fdca85626bf0d673155ffd4ea6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\3ac890fdca85626bf0d673155ffd4ea6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\2673fe9dd46d525081cf65fe1695a8d3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\2673fe9dd46d525081cf65fe1695a8d3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\0ecf6c2a915c13b66d70e040733679ff\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\0ecf6c2a915c13b66d70e040733679ff\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\950f30f00c4a0380b26dc22394b16dc7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\950f30f00c4a0380b26dc22394b16dc7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\950e19622c18f08264c04498e7585db5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\950e19622c18f08264c04498e7585db5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\1fdffd3df01093e54f22fae1bf2bd791\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\1fdffd3df01093e54f22fae1bf2bd791\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\3db01673e01569fbe852660a5649b91e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\3db01673e01569fbe852660a5649b91e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\6356e7902601925e28cec14d01bf2586\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\6356e7902601925e28cec14d01bf2586\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\1de9b528806e9afc396cd341fd52e87a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\1de9b528806e9afc396cd341fd52e87a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ffbb887b9f7a3913690a66d86067473d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ffbb887b9f7a3913690a66d86067473d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\268f5525b1351710c953de75bff47c6e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\268f5525b1351710c953de75bff47c6e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\617dbe5e3264e5e3a6e4a9d597207d08\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\617dbe5e3264e5e3a6e4a9d597207d08\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\6199db32628075c28f364851617c94dd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\6199db32628075c28f364851617c94dd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\114f5dd4cffbcefe7ebf3c733d12357b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\114f5dd4cffbcefe7ebf3c733d12357b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0-alpha01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\5a2cd5b28cd37dce1a344e0690777f43\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0-alpha01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\5a2cd5b28cd37dce1a344e0690777f43\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\efafe6b6227c0755b2eb7eb9477678c2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\efafe6b6227c0755b2eb7eb9477678c2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\7fb1bb5c3a3ab9a6d76df03a288a8ca2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\7fb1bb5c3a3ab9a6d76df03a288a8ca2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\143c1dbaae59b760eb5545f735637f25\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\143c1dbaae59b760eb5545f735637f25\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\9fe4c693ec2132e9b5a41a78f751d675\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\9fe4c693ec2132e9b5a41a78f751d675\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a2ff2ced9ca1dc17d26ca8d9b7e5d15f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\a2ff2ced9ca1dc17d26ca8d9b7e5d15f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b29ec1f27d4e1af9d0bd5159be59e6b5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b29ec1f27d4e1af9d0bd5159be59e6b5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\460f369e35cf796c731f9c64e1127669\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\460f369e35cf796c731f9c64e1127669\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\justi\OneDrive\Documents\GitHub\Final Project new\EC327_Final_Project_by_Scintaxx\app\src\main\AndroidManifest.xml
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ff9569a0de39280e80ca81146d937981\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\ff9569a0de39280e80ca81146d937981\AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.33.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\168a3d69579cef96645a9568aa338a80\AndroidManifest.xml:48:25-92
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\92041065994ea23289fda69528d15811\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\92041065994ea23289fda69528d15811\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\92041065994ea23289fda69528d15811\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\92041065994ea23289fda69528d15811\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b923d168f0844765f0f620c61052485c\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b923d168f0844765f0f620c61052485c\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\justi\.gradle\caches\transforms-2\files-2.1\b923d168f0844765f0f620c61052485c\AndroidManifest.xml:24:13-58
