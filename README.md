@@ -1,4 +1,6 @@
 # EC327 Final Project by Scintaxx
+### Youtube Link
+https://www.youtube.com/watch?v=CX__7Lq_ISg
 ### Introduction
 Tired of switching chatting software when messaging people? Try Scintaxx!
 Scintaxx is an android studio app that integrates all your messaging apps into one app. You can preview the most recent messages of each messaging app and reply to them via Scintaxx. You can reply to **SMS messages**, **Emails**, and even **Facebook messages** through Scintaxx.
